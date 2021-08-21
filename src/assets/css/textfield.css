@@ -1,0 +1,17 @@
+.text-field-wrapper input[type="text"]:focus {
+    border: 1px solid #43b02a;
+}
+
+.text-field {
+    border-radius: 4px;
+    width: auto;
+    min-width: 300px;
+    padding: 10px 10px;
+    border: 1px solid #272525;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+.text-field:focus .text-field:active {
+    border: 1px solid #43b02a;
+}

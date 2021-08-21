@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.add-field {
+    flex-grow:1;
+    display: flex;
+}
+
+.add-field input {
+    width: auto !important;
+    flex-grow: 1
+}

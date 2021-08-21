@@ -1,0 +1,10 @@
+.list-item-child {
+    display: flex;
+}
+.list-item-text {
+    width: 300px;
+}
+
+.list-item-icon {
+    flex-grow: 1;
+}
